@@ -217,7 +217,7 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Current date and time 07/17/16 17:12:58
+<pre>Current date and time 07/17/16 17:33:34
 Python version 2.7.12 
 Continuum Analytics, Inc.
  (default, Jun 29 2016, 11:07:13) [MSC v.1500 64 bit (AMD64)]
@@ -342,7 +342,7 @@ Continuum Analytics, Inc.
                      <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="o">.</span><span class="n">STDOUT</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">p</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">readlines</span><span class="p">():</span>
     <span class="n">line</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">r&#39;[^ -}]&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">())</span>
-    <span class="k">if</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span> <span class="o">!=</span> <span class="n">line</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;WARNING&quot;</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="p">((</span><span class="o">-</span><span class="mi">1</span> <span class="o">!=</span> <span class="n">line</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;WARNING&quot;</span><span class="p">))</span> <span class="ow">or</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span> <span class="o">!=</span> <span class="n">line</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;ERROR&quot;</span><span class="p">))):</span>
         <span class="k">print</span> <span class="p">(</span><span class="n">line</span><span class="p">)</span>
 <span class="n">p</span><span class="o">.</span><span class="n">wait</span><span class="p">()</span>
 </pre></div>
@@ -367,7 +367,7 @@ WARNING - par: The following clock signals will be routed by using generic routi
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>1</pre>
+<pre>0</pre>
 </div>
 
 </div>
