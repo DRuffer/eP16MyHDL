@@ -1,7 +1,11 @@
 .ipynb_checkpoints/
+.run_manager.ini
+ep16MyHDL_tcr.dir/
+reportview.xml
+promote.xml
 dff.v
 dff.vhd
 eP16/
 pck_myhdl_090.vhd
 tb_dff.v
-test_dff.vcd
+test_dff.vcd*

@@ -176,6 +176,15 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="eP16">eP16<a class="anchor-link" href="#eP16">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>This file and it's support can be found @ <a href="https://github.com/DRuffer/eP16MyHDL">https://github.com/DRuffer/eP16MyHDL</a></p>
 <p>To run this in the interactive editor, type: <strong>jupyter notebook eP16MyHDL.ipynb</strong>.</p>
 <p>To just run as a script, type: <strong>runipy eP16MyHDL.ipynb</strong>. This is not working at the moment.</p>
@@ -217,7 +226,7 @@ div#notebook {
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Current date and time 07/17/16 17:33:34
+<pre>Current date and time 07/23/16 14:54:01
 Python version 2.7.12 
 Continuum Analytics, Inc.
  (default, Jun 29 2016, 11:07:13) [MSC v.1500 64 bit (AMD64)]
@@ -228,6 +237,15 @@ Continuum Analytics, Inc.
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="DFF">DFF<a class="anchor-link" href="#DFF">&#182;</a></h2>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -321,6 +339,35 @@ Continuum Analytics, Inc.
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="UART">UART<a class="anchor-link" href="#UART">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>To start this process off, let's start with the UART, so I can get feedback that can actually be tested.
+The <strong>eP16.lpf</strong> file gives the key to find: <code>uart_o</code>. That leads us to <strong>ep16_chip.vhd</strong>, which gives us the connection to <code>txd_o</code> that is defined in <strong>uart16.vhd</strong>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Output">Output<a class="anchor-link" href="#Output">&#182;</a></h2>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">

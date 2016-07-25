@@ -2,7 +2,7 @@
 NOTE Diamond (64-bit) 3.7.1.502 JEDEC Compatible Fuse File.*
 NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation.*
 NOTE All Rights Reserved.*
-NOTE DATE CREATED:	Sun Jul 17 17:33:46 2016*
+NOTE DATE CREATED:	Sat Jul 23 14:54:52 2016*
 NOTE DESIGN NAME:	ep16MyHDL_eP16.ncd*
 NOTE DEVICE NAME:	LFXP2-5E-6TQFP144*
 NOTE PIN ASSIGNMENTS*
@@ -15524,4 +15524,4 @@ L1236444
 CBA7B*
 NOTE User Electronic Signature Data*
 UHFFFFFFFF*
-E3A1
+E38D
